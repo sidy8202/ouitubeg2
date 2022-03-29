@@ -1,0 +1,324 @@
+/* For th responsive */
+
+@media screen and (min-width: 900px)
+ {
+    .left a h1
+  {
+      font-size: 30px;
+      
+  
+  }
+
+  .middle input
+  {
+        width: 20px;
+  }
+ }
+
+ @media screen and (min-width: 700px)
+ {
+
+ }
+     
+
+/* Side bar */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: inline-block;
+    cursor: help;
+  
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a{font-size: 18px;}
+  }
+  
+  video
+  {
+    /* border: 2px solid red; */
+  
+  }
+  .styleall
+  {
+    display: inline-block;  
+    font-weight: bold;
+    font-size: 10px;
+    color: #111;
+    /* border: 1px solid blue; */
+    position: relative;
+    bottom: 28px;  
+
+  }
+
+  img, .hd
+  {
+      cursor: pointer;
+  }
+
+  .deplacer{
+      height: 200px;
+  }
+
+  /* Definie le height des videos */
+
+  /* reduire la marge du container */
+  
+  .gauche
+  {
+    position: relative;
+    top: -180px;
+  }
+  .regle
+  {
+    width: 100%;
+    height: 5px;
+    border: 2px solid gray;
+    opacity: 8%;
+    position: relative;
+    bottom:170px;
+  }
+  .firstic
+  {
+    margin-left: 15px;
+  }
+  
+  .titre
+  {
+    margin-left: 50px;
+  }
+  
+  .imagls
+  {
+    width: 35px;
+    height:35px;
+    border-radius: 50px;
+    float: left; 
+    margin-top: -55px;
+    
+  }
+  .profil 
+  {
+    margin-top: -18px;
+  }
+  .profil:after
+  {
+      content: "web design,";
+      color: #5a5a5a;
+      font-size: 8px;
+     
+    }
+    
+  .apres
+  {
+    margin-top: -18px;
+  }
+    .apres:after
+    {
+      content: "452 vues,il ya 21 heures";
+      color: #5a5a5a;
+      font-size: 8px;
+    }
+   
+  #para
+  {
+    color: lightslategray;
+    font-size: 10px;
+    /* margin-top: 10px; */
+    margin-left: 12px;
+  }
+  
+  #vid1
+  {
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    margin-left: 12px;
+  }
+  
+  video[poster]
+  {
+    height:80%;
+    width:105%;
+  
+  }
+  
+  .hd
+  {
+    border-radius: 10px;
+  }
+  
+  #youtube-logo
+  {
+      color: #f90201;
+      padding-right: 0.2rem;
+      margin-left: 30px;
+      /* position: relative; */
+      /* top: -45px; */
+  
+  }
+  
+  .left
+  {
+      background-color: #fff;
+      height: 100px;
+      display: inline-block;
+      /* meanning to be known */
+      justify-content: start;
+      align-items: center;
+    
+  }
+  .left a
+  {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: -45px;
+    left: 35px;
+  }
+  .all
+  {
+    width: 100%;
+  }
+
+  .togo input
+  {
+  
+   display:inline-block;
+   margin-left: 25%;
+   margin-top: 0px;
+   width: 53%;
+   position: relative;
+   top: -130px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+  border: none;
+  }
+
+
+  .right
+  {
+    float: right;
+    display: inline-block;
+  }
+
+  .fa-magnifying-glass
+
+  {
+      position: relative;
+      top: -156px;
+      left: 76%;
+      border: 1px;
+      border-left: 1px solid lightgray;
+      padding: 4px;
+      color: lightgrey;
+      /* border-width: 4px; */
+  }
+
+  .nav-icon
+  {
+      /* padding-right: 1rem; */
+      color: #909090;
+      position: relative;
+      top: -185px;
+      right: 50px;
+      
+      /* margin-right: 20px; */
+    
+  }
+  .fa-bell
+  {
+    margin-right: 30px;
+  }
+  .fa-circle-arrow-up
+  {
+    margin-right: 30px;
+  }
+  
+  
+  
+  .uls{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+   
+  
+  }
+  
+  .flex{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    position: relative;
+   
+  }
+  
+  li{
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: relative;
+    /* margin-top: 30px; */
+    line-height: 30px;
+    font-size: 25px;
+    cursor:grab;
+   
+  }
+
+  li:hover{
+      background-color: rgb(102, 100, 100);
+  }
+  
+  .rb{
+    border-radius: 70%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(102, 100, 100);
+    color: white;
+    text-align: center;
+    position: relative;
+    /* margin-top: 30px; */
+    line-height: 30px;
+    font-size: 25px;
+    
+  
+  }
+  
+  .nav-icon:hover{
+    color:red;
+  }
